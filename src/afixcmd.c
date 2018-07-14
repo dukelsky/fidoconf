@@ -110,7 +110,7 @@ linkliner:
          continue;
       }
       nfree(cfgline);
-      linkstart = get_hcfgPos();
+      linkstart = get_hcfgPos() + 0;
       linkConfName = sstrdup(getCurConfName());
       /* try to find alternative token
          ex.: areaFixPwd should be inserted after defaultPwd */
